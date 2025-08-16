@@ -1,0 +1,77 @@
+.root {
+    -fx-background-color: #0B0E11;
+}
+
+Text{
+	-fx-font-family: "Segoe UI";
+}
+
+#nameColumn, #amountColumn, #mintColumn, #logoColumn {
+    -fx-background-color: #0B0E11;
+}
+
+.bottom-InfoBar{
+	-fx-fill: #353A56; 
+    -fx-stroke: #2B3139; 
+    -fx-stroke-width: 2;
+    -fx-arc-width: 20;
+    -fx-arc-height: 20;
+}
+
+#solBalanceLabel, #solValueLabel, #errorLabel{
+	-fx-font-family: "Century Gothic";
+	-fx-text-fill: #EAECEF;
+}
+
+.text-field {
+    -fx-background-color: #181A20;
+    -fx-text-fill: #EAECEF;
+    -fx-prompt-text-fill: #A1A7BB;
+    -fx-border-color: #2B3139;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 6;
+}
+
+.text-field:focused {
+    -fx-border-color: #F0B90B;
+}
+
+.table-view {
+    -fx-background-color: #181A20;
+    -fx-table-cell-border-color: transparent;
+    -fx-control-inner-background: #181A20;
+    -fx-control-inner-background-alt: #181A20;
+    -fx-text-background-color: #EAECEF;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #0B0E11;
+}
+
+.table-view .column-header, 
+.table-view .table-cell {
+    -fx-text-fill: #EAECEF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2B3139;
+}
+
+.chart-pie-label {
+    -fx-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.chart-legend-item-symbol {
+    -fx-background-radius: 5px;
+}
+
+.chart-legend-item {
+    -fx-text-fill: white;
+}
